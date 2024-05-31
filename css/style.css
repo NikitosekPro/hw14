@@ -334,9 +334,10 @@ body {
   font-size: 16px;
   font-weight: 500;
   line-height: calc(26 / 16);
-  background: var(--team-background-color);
+  background-color: var(--team-background-color);
   cursor: pointer;
   border-radius: 4px;
+  border: none;
 }
 
 .sorting-button:is(:focus, :hover) {
